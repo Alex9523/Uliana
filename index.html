@@ -15,10 +15,15 @@
     body {
       min-height: 100vh;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       background: #f4f4f4;
       overflow: hidden;
+    }
+
+    head {
+
     }
 
     .stage {
@@ -58,9 +63,16 @@
   </style>
 </head>
 <body>
+<head>
+  <H1>Дорога Сива Уляна Ярославівна,</h1>
+  <h3>
+    Щиро вибачаюсь за те, що казав, що зможемо зідзвонитися о 15-й годині або ввечері, але не зміг цього зробити. Перепрошую за будь-які незручності, які це могло спричинити, і дякую за розуміння.
+    З найкращими побажаннями, ваш ліпший друг
+  </h3>
+</head>
 <div class="stage" id="stage">
-  <button class="btn btn-normal">Звичайна кнопка</button>
-  <button class="btn btn-escape" id="escapeBtn">Спіймай мене</button>
+  <button class="btn btn-normal">Так</button>
+  <button class="btn btn-escape" id="escapeBtn">Ні!!</button>
 </div>
 
 <script>
